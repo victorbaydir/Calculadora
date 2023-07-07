@@ -61,10 +61,20 @@
             
             background-color: black;
 
-            width: 396px;
+            width: 400px;
             border: none !important;
             border-radius: 10px 10px 0px 0px;
 
+            text-align: right;
+
+        
+
+        }
+
+        .result_text{
+            translate: -10px;
+            background-color: transparent;
+            font-size: 40px;
         }
 
         .stc{
