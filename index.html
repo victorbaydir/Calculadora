@@ -12,35 +12,41 @@
     
         
     <div class="stc">
+        <div class="title container">Calculator</div>
         <div class="container">
             <div class="cell result">
-                <input id="resultado" class="result result_text" disabled="true"  value=""></input>
+                <div  class="result_text" disabled="disabled" >
+            <div style="margin-top: 10px;" id="resultadoTESTE">1
+            </div>
+        </div>
             </div>
         </div>
         
-        <div class="container">
-            <button id="limpar" class="cell clean">CE</button>
+        <div class="operation container">
+            <button id="limparTudo" class="cell clean">CE</button>
             <button id="limpar" class="cell clean">C</button>
         </div>
         
         
-        <div class="container">
-            <button id="1" class="cell">1</button>
-            <button id="2" class="cell">2</button>
-            <button id="3" class="cell">3</button>
-            <button id="/" class="cell">/</button>
-            <button id="4" class="cell">4</button>
-            <button id="5" class="cell">5</button>
-            <button id="6" class="cell">6</button>
-            <button id="" class="cell"></button>
-            <button id="7" class="cell">7</button>
-            <button id="8" class="cell">8</button>
-            <button id="9" class="cell">9</button>
-            <button id="-" class="cell">-</button>
-            <button id="0" class="cell">0</button>
-            <button id="." class="cell">.</button>
-            <button id="=" class="cell">=</button>
-            <button id="+" class="cell">+</button>
+        <div class="teclado container">
+            <button style="color: rgb(61, 163, 113)" id="+" class="cell">+</button>
+            <button style="color: rgb(61, 163, 113)" id="-" class="cell">-</button>
+            <button style="color: rgb(61, 163, 113)" id="*" class="cell">*</button>
+            <button style="color: rgb(61, 163, 113)" id="/" class="cell">/</button>
+        </div>
+        <div class="numeros">
+            <button id="9" class="cell num">9</button>
+            <button id="8" class="cell num">8</button>
+            <button id="7" class="cell num">7</button>
+            <button id="6" class="cell num">6</button>
+            <button id="5" class="cell num">5</button>
+            <button id="4" class="cell num">4</button>
+            <button id="3" class="cell num">3</button>
+            <button id="2" class="cell num">2</button>
+            <button id="1" class="cell num">1</button>
+            <button id="0" class="cell num">0</button>
+            <button id="." class="cell num">.</button>
+            <button style="color: rgb(61, 163, 113)" id="=" class="cell num">=</button>
         </div>
     </div>
         <script src="script.js"></script>
